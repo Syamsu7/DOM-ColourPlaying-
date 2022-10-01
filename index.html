@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Colour Playing</title>
+	</head>
+	<style>
+		body{
+		padding: 50px;
+		margin: 0;
+		background-color: salmon;	
+		}
+		.container{
+			padding-top: 250px;
+			padding-bottom: 250px;
+			color: white;
+			font-family: arial;
+			text-align: center;
+			border-bottom: 5px solid white;
+		}
+		.container2{
+			padding-top: 250px;
+			padding-bottom: 250px;
+			color: white;
+			font-size: 30px;
+			font-family: arial;
+			text-align: center;
+			border-bottom: 5px solid white;
+		}
+		.container3{
+			padding-top: 290px;
+			padding-bottom: 290px;
+			color: white;
+			font-family: arial;
+			text-align: center;
+		}
+		#paraghraf{
+			color: white;
+			font-size: 18px;
+		}
+		.nama{	
+			color: white;
+			font-family: arial;
+			text-align: center;
+			font-size: 70px;	
+		}
+		.nama span{
+			display: inline-block;
+			transition: .13s;
+			cursor: pointer;
+		}
+		.nama span:hover{
+			transform: scale(2) translateY(-20px);
+		}
+		.blue{
+			background-color: blue;
+		}
+		.kotak{
+			width: 30px;
+			height: 30px;
+			margin: 30px auto;
+			background-color: red;
+		}
+		.kotak2{
+			width: 30px;
+			height: 30px;
+			margin: 30px auto;
+			background-color: green;
+		}
+		.kotak3{
+			width: 30px;
+			height: 30px;
+			margin: 30px auto;
+			background-color: blue;
+		}
+		
+	</style>
+	<body>
+	<div class='container'>
+		<h1 class='nama'>ColourPlaying.</h1> 
+		<p>Move your mouse here and see what happen.<br> created by @syamsunuryaman</p>
+	</div>
+	<div class='container2'>
+		<h1>Manual Color setting</h1>
+		<p id='paraghraf'>Here it is, the other interesting thing to attempt.</p>
+		<div class='kotak'></div>
+			<input type='range' name='redslide' min='0' max='255' />
+		<div class='kotak2'></div>
+			<input type='range' name='greenslide' min='0' max='255' />
+		<div class='kotak3'></div>
+			<input type='range' name='blueslide' min='0' max='255' />
+	</div>
+	<div class='container3'>
+		<h1>Click the button and chose your best colour !</h1>
+		<p>This part is surprising homies, the background is gonna give you the random colour when you click the button</p>
+		<button class='btn'>Click !</button>
+	</div>
+	
+			
+	<script src ='text.js'></script>
+	</body>
+<html>
